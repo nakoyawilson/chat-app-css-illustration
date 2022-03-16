@@ -13,13 +13,13 @@
   --very-light-magenta: hsl(289, 100%, 72%);
   --background-gradient: linear-gradient(
     225deg,
-    hsl(293, 100%, 63%),
-    hsl(264, 100%, 61%)
+    hsl(292, 100%, 63%),
+    hsl(263, 100%, 61%)
   );
   --background-gradient-inverse: linear-gradient(
     225deg,
-    hsl(264, 100%, 61%),
-    hsl(293, 100%, 63%)
+    hsl(263, 100%, 61%),
+    hsl(292, 100%, 63%)
   );
   --shadow: rgba(62, 39, 83, 0.251202);
   --image-shadow: rgba(62, 39, 83, 0.045318);
