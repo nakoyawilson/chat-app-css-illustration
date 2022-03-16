@@ -62,18 +62,19 @@ body::before,
   content: "";
   width: 51rem;
   height: 101.8rem;
-  background-image: var(--background-gradient);
   border-radius: 25.5rem;
   position: absolute;
   z-index: -10;
 }
 
 body::before {
+  background-image: var(--background-gradient);
   left: -32.2rem;
   top: -50.9rem;
 }
 
 .container::before {
+  background-image: var(--background-gradient-inverse);
   bottom: -50.9rem;
   right: -32.3rem;
   opacity: 0.03;
