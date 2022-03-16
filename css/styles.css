@@ -49,7 +49,6 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   position: relative;
-  width: min(100%, 144rem);
 }
 
 .container {
@@ -111,7 +110,7 @@ svg {
   background: var(--white);
   border-radius: 0 0 1.4rem 1.4rem;
   position: absolute;
-  width: 12.9rem;
+  width: min(100%, 12.9rem);
   height: 2.9rem;
   left: 0;
   right: 0;
@@ -300,4 +299,69 @@ svg {
 
 .attribution a {
   color: var(--very-dark-desaturated-violet);
+}
+
+/* Media Queries */
+@media screen and (min-width: 950px) {
+  /* General Styles */
+
+  body::before {
+    left: -9rem;
+    top: -31.8rem;
+  }
+
+  .container::before {
+    bottom: -33.7rem;
+    right: -18.5rem;
+    opacity: 0.03;
+  }
+
+  /* Main */
+
+  .main {
+    width: min(95%, 81.7rem);
+    /* margin: 14.8rem auto 12rem; */
+    margin: 14.8rem 26rem 12rem 36.3rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  /* Chat App */
+
+  .chat-app-illustration-wrapper {
+    background-color: var(--white);
+    border-radius: 3rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem -1rem var(--shadow);
+    width: min(100%, 24.7rem);
+    margin-inline: 0;
+    position: relative;
+  }
+
+  /* Chat Body */
+
+  .message:nth-child(6) {
+    margin-top: 1.6rem;
+  }
+
+  /* Text Content */
+
+  .text-content {
+    text-align: left;
+    width: 44.5rem;
+  }
+
+  .service-description {
+    margin-top: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  /* Main */
+
+  .main {
+    margin: 14.8rem auto 12rem;
+  }
 }
