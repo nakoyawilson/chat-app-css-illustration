@@ -49,7 +49,6 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   position: relative;
-  overflow: hidden;
   width: min(100%, 144rem);
 }
 
