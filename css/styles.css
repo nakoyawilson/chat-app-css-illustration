@@ -25,6 +25,7 @@
   --image-shadow: rgba(62, 39, 83, 0.045318);
   --border: rgba(62, 39, 83, 0.0509178);
   --bg-message-received: hsla(276, 41%, 93%, 1);
+  --bg-body: hsla(0, 0%, 98%, 1);
 }
 
 /* CSS Reset */
@@ -44,7 +45,7 @@ html {
 }
 
 body {
-  background-color: var(--light-grayish-violet);
+  background-color: var(--bg-body);
   font-family: var(--font);
   font-size: 1.6rem;
   font-weight: 400;
