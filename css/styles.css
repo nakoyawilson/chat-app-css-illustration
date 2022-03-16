@@ -322,8 +322,7 @@ svg {
 
   .main {
     width: min(95%, 81.7rem);
-    /* margin: 14.8rem auto 12rem; */
-    margin: 14.8rem 26rem 13rem 36.3rem;
+    margin: 14.8rem auto 13rem;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -357,13 +356,5 @@ svg {
 
   .service-description {
     margin-top: 2.4rem;
-  }
-}
-
-@media screen and (min-width: 1441px) {
-  /* Main */
-
-  .main {
-    margin: 14.8rem auto 12rem;
   }
 }
