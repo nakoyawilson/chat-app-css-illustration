@@ -50,10 +50,16 @@ body {
   font-weight: 400;
   position: relative;
   overflow: hidden;
+  width: min(100%, 144rem);
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
 }
 
 body::before,
-body::after {
+.container::before {
   content: "";
   width: 51rem;
   height: 101.8rem;
@@ -68,7 +74,7 @@ body::before {
   top: -50.9rem;
 }
 
-body::after {
+.container::before {
   bottom: -50.9rem;
   right: -32.3rem;
   opacity: 0.03;
